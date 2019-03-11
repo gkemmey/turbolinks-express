@@ -1,0 +1,19 @@
+{
+  "name": "turbolinks-express",
+  "version": "1.0.0",
+  "description": "Express middleware for Turbolinks 5 support",
+  "main": "./lib",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": {
+    "name": "Gray Kemmey",
+    "email": "gray.kemmey@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.16.4",
+    "mocha": "^6.0.2",
+    "supertest": "^4.0.0"
+  }
+}
