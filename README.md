@@ -2,6 +2,18 @@
 
 Express middleware for Turbolinks 5 support. Aims to provide similar functionality as the [turbolinks-rails](https://github.com/turbolinks/turbolinks-rails) gem, but for [Express](https://expressjs.com/).
 
+## Why, tho?
+
+I wrote a lot about that here: ["Making a (Long-Winded) Case for Turbolinks"](http://blog.graykemmey.com/2019/03/11/making-a-case-for-turbolinks/). The short version is, I think Turbolinks is a better paradigm than any of the SPA frameworks of today for lots of web applications.
+
+## Are you maintaining this?
+
+Nah, I don't actually work with Express all that often.
+
+## So, you built an Express app, wrote that blog post, and published this middleware to...what? Prove a point?
+
+Yeah 😬 And (hopefully) to show that it's not too difficult to use Turbolinks in any tech stack!
+
 ## Getting Started
 
 1. `yarn add turbolinks-express`
@@ -11,6 +23,7 @@ Express middleware for Turbolinks 5 support. Aims to provide similar functionali
     // app.js
 
     var express = require('express');
+
     var session = require('express-session');
     var turbolinks = require('turbolinks-express');
 
