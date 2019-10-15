@@ -41,7 +41,7 @@ I won't rehash what [Turbolinks](https://github.com/turbolinks/turbolinks) is, b
 
 2. After remote form submissions that would normally redirect, we return JavaScript that performs a `Turbolinks.visit`. [Official docs](https://github.com/turbolinks/turbolinks#redirecting-after-a-form-submission)
 
-Adding these middleares allows you to use Express's `res.redirect("/users")` as you always have while performing those optimizations for you ☝️
+Adding these middlewares allows you to use Express's `res.redirect("/users")` as you always have while performing those optimizations for you ☝️
 
 ## License
 
