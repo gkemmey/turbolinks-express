@@ -14,7 +14,7 @@
   "license": "MIT",
   "devDependencies": {
     "express": "^4.16.4",
-    "mocha": "^6.0.2",
+    "mocha": "^10.2.0",
     "supertest": "^4.0.0"
   }
 }
